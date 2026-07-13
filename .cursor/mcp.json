@@ -1,0 +1,9 @@
+"COSMOX MCP Server": {
+  "command": "python3",
+  "args": ["/Users/lcv/cosmox-mcp-server/server.py"],
+  "env": {
+    "COSMOX_DOCS_BASE_URL": "https://cosmosx.cisco.com:81",
+    "COSMOX_AUTH_BASE_URL": "https://cosmosx.cisco.com:8100",
+    "COSMOX_ACCESS_TOKEN": ""
+  }
+}

@@ -1,0 +1,1 @@
+# cosmox-mcp-server

@@ -1,0 +1,16 @@
+{
+  "servers": {
+    "COSMOX MCP Server": {
+      "command": "python3",
+      "args": [
+        "${input:SERVER_PATH}/server.py"
+      ],
+      "timeout": 300000,
+      "env": {
+        "COSMOX_DOCS_BASE_URL": "https://cosmosx.cisco.com:81",
+        "COSMOX_AUTH_BASE_URL": "https://cosmosx.cisco.com:8100",
+        "COSMOX_ACCESS_TOKEN": "${input:COSMOX_ACCESS_TOKEN}"
+      }
+    }
+  }
+}

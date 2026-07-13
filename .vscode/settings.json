@@ -1,0 +1,21 @@
+{
+  "[python]": {
+    "defaultInterpreterPath": "${workspaceFolder}/venv/bin/python",
+    "linting.enabled": true,
+    "linting.pylintEnabled": true
+  },
+  "python.formatting.provider": "black",
+  "editor.defaultFormatter": "ms-python.black-formatter",
+  "editor.formatOnSave": true,
+  "modelContextProtocol": {
+    "servers": {
+      "COSMOX MCP": {
+        "command": "/auto/smartdev/bin/python3.10",
+        "args": [
+          "${workspaceFolder}/server.py"
+        ],
+        "timeout": 300000
+      }
+    }
+  }
+}
